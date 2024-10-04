@@ -1,0 +1,32 @@
+{
+    "name": "mgbrowser",
+    "productName": "mgbrowser",
+    "version": "1.0.0",
+    "description": "Run apps developed in PHP for desktop with MGBrowser.",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "electron .",
+        "package-win32": "electron-forge package --platform=win32",
+        "package": "electron-forge package",
+        "make-win32": "electron-forge make --platform=win32",
+        "make": "electron-forge make"
+    },
+    "author": {
+        "name": "Murilo Gomes Julio",
+        "email": "mugomes@zohomail.com",
+        "url": "https://linktr.ee/mugomes"
+    },
+    "copyright": "Copyright (C) 2004-2024 Murilo Gomes Julio",
+    "homepage": "https://linktr.ee/mugomes",
+    "bugs": {
+        "url": "https://github.com/mugomes/mgbrowser/issues"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@electron-forge/cli": "^7.4.0",
+        "@electron-forge/maker-zip": "^7.4.0",
+        "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
+        "electron": "^31.0.1"
+    }
+}
