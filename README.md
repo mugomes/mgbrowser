@@ -1,28 +1,26 @@
 # MGBrowser
 
-Crie e execute aplicativos desenvolvidos em PHP no desktop.
+Run apps developed in PHP for desktop with MGBrowser.
 
-## Requerimento
+## Requirements
 
-- Windows 10 ou superior de 64 bits
-- Linux Debian 12 ou superior de 64 bits com sudo ativado
-- Linux Ubuntu 22.04 ou superior de 64 bits
+- Windows 10 or higher 64-bit
+- Linux Debian 12 or higher 64-bit with sudo enabled
+- Linux Ubuntu 22.04 or higher 64-bit
 
-## Instalação
+## Installation
 
-Não requer instalação, é só extrair e executar.
+No installation required, just extract and run.
 
-O A
+### Examples
 
-### Exemplos
+To create your first application, open the "app" folder and see examples of how to work with MGBrowser.
 
-Para criar seu primeiro aplicativo abra a pasta app e veja exemplos de como trabalhar com o MGBrowser.
+### Custom Routes
 
-### Rotas Personalizadas
+Change router to true in the config.json file inside the "app/config" folder and create a file called router.php inside your "app" folder.
 
-Altere o router para true no arquivo config.json dentro da pasta app/config e crie um arquivo chamado router.php dentro da sua pasta app.
-
-Exemplo de Rotas Personalizadas
+Example of Custom Routes
 
 ```
 if ($_SERVER['REQUEST_URI'] == '/') {
@@ -39,9 +37,9 @@ if ($_SERVER['REQUEST_URI'] == '/') {
     }
 }
 ```
-# Doação
+# Donation
 
-Se você puder ajudar esse projeto financeiramente, vou deixar formas de apoio abaixo.
+If you can help this project financially, I will leave ways to support you below.
 
  - PIX: pixmugomes@gmail.com
  - Asaas: https://www.asaas.com/c/72mxu6ilkis5rwxz
