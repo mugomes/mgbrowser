@@ -5,7 +5,7 @@ Run apps developed in PHP for desktop with MGBrowser.
 ## Requirements
 
 - Windows 10 or higher 64-bit
-- Linux Debian 12 or higher 64-bit with sudo enabled
+- Linux Debian 12 or higher 64-bit
 - Linux Ubuntu 22.04 or higher 64-bit
 
 ## Installation
